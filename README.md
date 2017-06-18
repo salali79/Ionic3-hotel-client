@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic 3 hotel client
+This repository is the client part of a application to book rooms based on search criteria.
+It's relatively simple, uses basic Ionic components in it's structure, with a elaborated CSS styling.
 
-## How to use this template
+## How to use it
+The demo can be executed like any other Ionic application, using the Ionic CLI command: `ionic serve` to execute it in development mode.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+### Configuration
+Is configured to work in localhost, connecting with the server in localhost:8080. Actually the configuration is hardcoded inside RoomsProvider.
+Will be modified and improved.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## References
+The application was build initially following the tutorial made by Joshua Morony 
+([@joshuamorony](https://github.com/joshuamorony)) in 
+[Building a Hotel Booking App with Ionic 2, MongoDB & Node](https://www.joshmorony.com/building-a-hotel-booking-app-with-ionic-2-mongodb-node/).
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## In the future
+This repository will be refactored and several changes will be done to increase the functionality, and to change the design.
